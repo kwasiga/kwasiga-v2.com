@@ -213,3 +213,19 @@
   color: var(--go-teal);
   border-color: var(--go-teal);
 }
+
+/* Now playing */
+.now-playing { display: flex; align-items: center; gap: 6px; cursor: default; }
+
+.now-playing-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #1db954;
+  flex-shrink: 0;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.7); }
+}

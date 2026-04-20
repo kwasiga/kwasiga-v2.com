@@ -4,6 +4,8 @@ import { FILES, type FileId } from './data/files';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Playlist from './components/Playlist';
+import NarutoSeal from './components/NarutoSeal';
 
 type OpenTab = { id: FileId; name: string };
 
@@ -48,7 +50,7 @@ export default function App() {
     if (!activeFile) {
       return (
         <div className="welcome">
-          <div className="welcome-gopher">🐹</div>
+          <NarutoSeal />
           <h2>kwasiga.com</h2>
           <p>Select a file from the explorer to get started.</p>
           <div className="welcome-shortcuts">
@@ -73,6 +75,7 @@ export default function App() {
     if (activeFile === 'aboutMe')    return <AboutMe />;
     if (activeFile === 'projects')   return <Projects />;
     if (activeFile === 'experience') return <Experience />;
+    if (activeFile === 'playlist')   return <Playlist />;
   }
 
   const lineCount = activeFile ? (activeFile === 'aboutMe' ? 49 : activeFile === 'projects' ? 58 : 56) : 1;
@@ -88,7 +91,7 @@ export default function App() {
           <span className="tl-max" />
         </div>
         <div className="title-bar-center">
-          🐹 &nbsp; kwasiga.com — {activeFile ? FILES.find(f => f.id === activeFile)?.name : 'Welcome'}
+          <NarutoSeal size={16} /> &nbsp; kwasiga.com — {activeFile ? FILES.find(f => f.id === activeFile)?.name : 'Welcome'}
         </div>
       </div>
 
@@ -159,11 +162,11 @@ export default function App() {
 
       {/* Status Bar */}
       <div className="status-bar">
-        <span className="status-item">🐹 Go</span>
+        <span className="status-item" style={{ display: 'flex', alignItems: 'center', gap: 4 }}><NarutoSeal size={14} /> Go</span>
         <span className="status-item">main</span>
         <span className="status-item">kwasiga.com</span>
         <div className="status-right">
-          <span className="status-item">Ln {lineCount}, Col {col}</span>
+<span className="status-item">Ln {lineCount}, Col {col}</span>
           <span className="status-item">UTF-8</span>
           <span className="status-item">go1.23</span>
         </div>
