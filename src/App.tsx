@@ -51,7 +51,7 @@ export default function App() {
       return (
         <div className="welcome">
           <NarutoSeal />
-          <h2>kwasiga.com</h2>
+          <h2>Hi, I'm Kwasi</h2>
           <p>Select a file from the explorer to get started.</p>
           <div className="welcome-shortcuts">
             <div className="shortcut-row">
