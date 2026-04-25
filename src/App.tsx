@@ -7,20 +7,20 @@ export default function App() {
       <div className="name">Kwasi Gyimah-Asante</div>
 
       <div className="links">
-        <a href="https://linkedin.com/in/kwasiga" target="_blank" rel="noopener noreferrer">linkedin</a>
-        <a href="https://github.com/kwasiga" target="_blank" rel="noopener noreferrer">github</a>
+        <a href="https://linkedin.com/in/kwasiga" target="_blank" rel="noopener noreferrer">Linkedin</a>
+        <a href="https://github.com/kwasiga" target="_blank" rel="noopener noreferrer">Github</a>
         <a href={resumePdf} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
 
       <p className="bio">
-        Math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. distributed systems, performance, security.
+        Math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">Fordham</a>. Sistributed systems, Performance, Security.
       </p>
       <p className="bio-muted">
         Prev intern @ <a href="https://www.persol.com.gh" target="_blank" rel="noopener noreferrer">Persol Systems</a>.
       </p>
 
       <div className="section">
-        <div className="section-title">projects</div>
+        <div className="section-title">Projects</div>
         <div className="item">
           <span className="item-dash">–</span>
           <span>
@@ -32,7 +32,7 @@ export default function App() {
           <span className="item-dash">–</span>
           <span>
             <a href="https://github.com/kwasiga/pawpath" target="_blank" rel="noopener noreferrer">Pawpath</a>
-            <span className="item-desc">. (won RAMHACK '26 track). AI dog walking + route optimization.</span>
+            <span className="item-desc">. (Won RAMHACK '26 track). AI dog walking + route optimization.</span>
           </span>
         </div>
       </div>
