@@ -4,19 +4,19 @@ import resumePdf from './assets/resume.pdf';
 export default function App() {
   return (
     <div className="page">
-      <div className="name">kwasi gyimah-asante</div>
+      <div className="name">Kwasi Gyimah-Asante</div>
 
       <div className="links">
         <a href="https://linkedin.com/in/kwasiga" target="_blank" rel="noopener noreferrer">linkedin</a>
         <a href="https://github.com/kwasiga" target="_blank" rel="noopener noreferrer">github</a>
-        <a href={resumePdf} target="_blank" rel="noopener noreferrer">resume</a>
+        <a href={resumePdf} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
 
       <p className="bio">
-        math & cs student @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. backend systems, performance, security.
+        Math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. distributed systems, performance, security.
       </p>
       <p className="bio-muted">
-        prev intern @ <a href="https://www.persol.com.gh" target="_blank" rel="noopener noreferrer">persol systems</a>.
+        Prev intern @ <a href="https://www.persol.com.gh" target="_blank" rel="noopener noreferrer">Persol Systems</a>.
       </p>
 
       <div className="section">
@@ -24,29 +24,29 @@ export default function App() {
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/secure-api" target="_blank" rel="noopener noreferrer">go secure api</a>
-            <span className="item-desc">. production rest api with jwt, rbac, rate limiting.</span>
+            <a href="https://github.com/kwasiga/secure-api" target="_blank" rel="noopener noreferrer">Go Secure API</a>
+            <span className="item-desc">. Production rest api with jwt, rbac, rate limiting.</span>
           </span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/pawpath" target="_blank" rel="noopener noreferrer">pawpath</a>
-            <span className="item-desc">. (won ramhack '26 track). ai dog walking + route optimization.</span>
+            <a href="https://github.com/kwasiga/pawpath" target="_blank" rel="noopener noreferrer">Pawpath</a>
+            <span className="item-desc">. (won RAMHACK '26 track). AI dog walking + route optimization.</span>
           </span>
         </div>
       </div>
 
       <div className="section">
-        <div className="section-title">bio</div>
+        <div className="section-title">Bio</div>
         <div className="item">
           <span className="item-dash">–</span>
-          <span>ny</span>
+          <span>NY</span>
           
         </div>
         <div className="item">
           <span className="item-dash">–</span>
-          <span>typing in go, python, c++, js</span>
+          <span>Typing in js, go, python, c++</span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
