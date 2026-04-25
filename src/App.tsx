@@ -32,7 +32,7 @@ export default function App() {
           <span className="item-dash">–</span>
           <span>
             <a href="https://github.com/kwasiga/pawpath" target="_blank" rel="noopener noreferrer">pawpath</a>
-            <span className="item-desc">. (won ramhack '26). ai dog walking + route optimization.</span>
+            <span className="item-desc">. (won ramhack '26 track). ai dog walking + route optimization.</span>
           </span>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function App() {
         </div>
         <div className="item">
           <span className="item-dash">–</span>
-          <span>types in go, python, c++, js</span>
+          <span>typing in go, python, c++, js</span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
