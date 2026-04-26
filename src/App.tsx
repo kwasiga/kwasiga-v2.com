@@ -13,7 +13,7 @@ export default function App() {
       </div>
 
       <p className="bio">
-        Math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">Fordham</a>. Sistributed systems, Performance, Security.
+        Math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">Fordham</a>. Distributed systems, Infra, Security.
       </p>
       <p className="bio-muted">
         Prev intern @ <a href="https://www.persol.com.gh" target="_blank" rel="noopener noreferrer">Persol Systems</a>.
