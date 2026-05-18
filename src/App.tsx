@@ -39,7 +39,14 @@ export default function App() {
           <span className="item-dash">–</span>
           <span>
             <a href="https://github.com/kwasiga/Spoty" target="_blank" rel="noopener noreferrer">Spoty</a>
-            <span className="item-desc">. social app with real-time listening activity, listening stats, taste compatibility, and friend reactions.</span>
+            <span className="item-desc">. Social app with real-time listening activity, listening stats, taste compatibility, and friend reactions.</span>
+          </span>
+        </div>
+        <div className="item">
+          <span className="item-dash">–</span>
+          <span>
+            <a href="https://github.com/kwasiga/accentr" target="_blank" rel="noopener noreferrer">Accentr</a>
+            <span className="item-desc">. Language learning app using AI to help with pronounciations.</span>
           </span>
         </div>
       </div>
