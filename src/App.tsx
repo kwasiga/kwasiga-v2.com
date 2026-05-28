@@ -13,10 +13,10 @@ export default function App() {
       </div>
 
       <p className="bio">
-        Math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">Fordham</a>. Distributed systems, Infra, Security.
+        Math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">Fordham</a>. AI Engingeering, Infra.
       </p>
       <p className="bio-muted">
-        Prev intern @ <a href="https://www.persol.com.gh" target="_blank" rel="noopener noreferrer">Persol Systems</a>.
+        Research Assistant in RL @ Fordham.
       </p>
 
       <div className="section">
@@ -24,8 +24,8 @@ export default function App() {
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/secure-api" target="_blank" rel="noopener noreferrer">Go Secure API</a>
-            <span className="item-desc">. Production rest api with jwt, rbac, rate limiting.</span>
+            <a href="https://github.com/kwasiga/rag-pipeline" target="_blank" rel="noopener noreferrer">Rag Pipeline</a>
+            <span className="item-desc">. Production multimodal rag pipeline.</span>
           </span>
         </div>
         <div className="item">
@@ -60,7 +60,7 @@ export default function App() {
         </div>
         <div className="item">
           <span className="item-dash">–</span>
-          <span>Typing in js, go, python, c++</span>
+          <span>Typing in python, js/ts</span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
