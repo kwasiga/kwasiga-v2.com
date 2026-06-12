@@ -63,8 +63,8 @@ export default function App() {
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/accentr" target="_blank" rel="noopener noreferrer">accentr</a>
-            <span className="item-desc">. language learning app using AI to help with pronunciations.</span>
+            <a href="https://github.com/kwasiga/slack-codebase-agent" target="_blank" rel="noopener noreferrer">codebase q&a agent</a>
+            <span className="item-desc">. agentic rag over github repos via slack, with self-refining queries and cited answers.</span>
           </span>
         </div>
       </div>
