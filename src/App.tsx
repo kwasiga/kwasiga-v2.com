@@ -4,67 +4,84 @@ import resumePdf from './assets/resume.pdf';
 export default function App() {
   return (
     <div className="page">
-      <div className="name">Kwasi Gyimah-Asante</div>
+      <div className="header">
+        <div className="name">Kwasi Gyimah-Asante</div>
+        <div className="icons">
+          <a href="https://linkedin.com/in/kwasiga" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/kwasiga" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+          </a>
+          <a href="mailto:kag7@fordham.edu" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
 
       <div className="links">
-        <a href="https://linkedin.com/in/kwasiga" target="_blank" rel="noopener noreferrer">Linkedin</a>
-        <a href="https://github.com/kwasiga" target="_blank" rel="noopener noreferrer">Github</a>
-        <a href={resumePdf} target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href={resumePdf} target="_blank" rel="noopener noreferrer">resume</a>
       </div>
 
       <p className="bio">
-        Math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">Fordham</a>. AI Engingeering, Infra.
+        math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. AI engineering, infra.
       </p>
       <p className="bio-muted">
-        Research Assistant in RL @ Fordham.
+        research assistant in RL @ fordham.
       </p>
 
       <div className="section">
-        <div className="section-title">Projects</div>
+        <div className="section-title">proj</div>
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/rag-pipeline" target="_blank" rel="noopener noreferrer">Rag Pipeline</a>
-            <span className="item-desc">. Production multimodal rag pipeline.</span>
+            <a href="https://github.com/kwasiga/rag-pipeline" target="_blank" rel="noopener noreferrer">rag pipeline</a>
+            <span className="item-desc">. production multimodal rag pipeline.</span>
           </span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/pawpath" target="_blank" rel="noopener noreferrer">Pawpath</a>
-            <span className="item-desc">. (Won RAMHACK '26 track). AI dog walking + route optimization.</span>
+            <a href="https://github.com/kwasiga/pawpath" target="_blank" rel="noopener noreferrer">pawpath</a>
+            <span className="item-desc">. (won RAMHACK '26 track). AI dog walking + route optimization.</span>
           </span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/Spoty" target="_blank" rel="noopener noreferrer">Spoty</a>
-            <span className="item-desc">. Social app with real-time listening activity, listening stats, taste compatibility, and friend reactions.</span>
+            <a href="https://github.com/kwasiga/Spoty" target="_blank" rel="noopener noreferrer">spoty</a>
+            <span className="item-desc">. social app with real-time listening activity, listening stats, taste compatibility, and friend reactions.</span>
           </span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/accentr" target="_blank" rel="noopener noreferrer">Accentr</a>
-            <span className="item-desc">. Language learning app using AI to help with pronounciations.</span>
+            <a href="https://github.com/kwasiga/accentr" target="_blank" rel="noopener noreferrer">accentr</a>
+            <span className="item-desc">. language learning app using AI to help with pronunciations.</span>
           </span>
         </div>
       </div>
 
       <div className="section">
-        <div className="section-title">Bio</div>
-        <div className="item">
-          <span className="item-dash">–</span>
-          <span>NY</span>
-          
-        </div>
+        <div className="section-title">bio</div>
         <div className="item">
           <span className="item-dash">–</span>
           <span>Typing in python, js/ts</span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
-          <span><a href="mailto:kag7@fordham.edu">kag7@fordham.edu</a></span>
+          <span>diamond 1 in siege, music, chess, and too many open tabs</span>
+        </div>
+        <div className="item">
+          <span className="item-dash">–</span>
+          <span>itachi was valid, end of discussion</span>
         </div>
       </div>
     </div>
