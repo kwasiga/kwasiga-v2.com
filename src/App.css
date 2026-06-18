@@ -21,15 +21,71 @@
   gap: 14px;
 }
 
-.icons a {
+.icons a,
+.icon-btn {
   color: #111111;
   display: flex;
   align-items: center;
   transition: opacity 0.15s ease;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
 }
 
-.icons a:hover {
+.icons a:hover,
+.icon-btn:hover {
   opacity: 0.55;
+}
+
+.email-icon-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.email-popup {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background: #111111;
+  color: #F2EDE7;
+  border-radius: 6px;
+  padding: 12px 14px 10px;
+  white-space: nowrap;
+  z-index: 10;
+  min-width: 200px;
+}
+
+.email-popup-address {
+  font-size: 12px;
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+
+.email-popup-actions {
+  display: flex;
+  gap: 10px;
+  border-top: 1px solid rgba(242, 237, 231, 0.15);
+  padding-top: 8px;
+}
+
+.email-popup-btn {
+  background: none;
+  border: none;
+  color: #F2EDE7;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+}
+
+.email-popup-btn:hover {
+  opacity: 1;
 }
 
 .links {
