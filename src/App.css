@@ -23,7 +23,7 @@
 
 .icons a,
 .icon-btn {
-  color: #111111;
+  color: #ffffff;
   display: flex;
   align-items: center;
   transition: opacity 0.15s ease;
@@ -49,8 +49,9 @@
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
-  background: #111111;
-  color: #F2EDE7;
+  background: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 6px;
   padding: 12px 14px 10px;
   white-space: nowrap;
@@ -67,14 +68,14 @@
 .email-popup-actions {
   display: flex;
   gap: 10px;
-  border-top: 1px solid rgba(242, 237, 231, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 8px;
 }
 
 .email-popup-btn {
   background: none;
   border: none;
-  color: #F2EDE7;
+  color: #ffffff;
   font-family: inherit;
   font-size: 12px;
   cursor: pointer;
@@ -96,7 +97,7 @@
 }
 
 .links a {
-  color: #111111;
+  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
@@ -110,13 +111,13 @@
 }
 
 .bio {
-  color: #111111;
+  color: #ffffff;
   margin-bottom: 8px;
 }
 
 .bio a {
   font-weight: 700;
-  color: #111111;
+  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
@@ -129,12 +130,12 @@
 }
 
 .bio-muted {
-  color: #8c7b6e;
+  color: #888888;
   margin-bottom: 36px;
 }
 
 .bio-muted a {
-  color: #8c7b6e;
+  color: #888888;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
@@ -158,15 +159,15 @@
 .item {
   display: flex;
   gap: 8px;
-  color: #111111;
+  color: #ffffff;
   margin-bottom: 4px;
 }
 
-.item-dash { color: #8c7b6e; flex-shrink: 0; }
+.item-dash { color: #888888; flex-shrink: 0; }
 
 .item a {
   font-weight: 700;
-  color: #111111;
+  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
@@ -178,4 +179,4 @@
   text-decoration-thickness: 2px;
 }
 
-.item-desc { color: #8c7b6e; }
+.item-desc { color: #888888; }

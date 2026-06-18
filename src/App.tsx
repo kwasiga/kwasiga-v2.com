@@ -74,7 +74,7 @@ export default function App() {
       </div>
 
       <p className="bio">
-        math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. ai engineering, infra.
+        math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. ai/ml engineering.
       </p>
       <p className="bio-muted">
         research assistant in reinforcement learning @ fordham.
