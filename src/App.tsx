@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import './App.css';
 import resumePdf from './assets/resume.pdf';
 
-const EMAIL = 'kwasikage@gmail.com';
+const EMAIL = 'kag7@fordham.edu';
 
 function EmailPopup({ onClose }: { onClose: () => void }) {
   const [copied, setCopied] = useState(false);
@@ -84,6 +84,7 @@ export default function App() {
       <p className="bio-muted">
         research assistant in reinforcement learning @ fordham.
       </p>
+
 
       <div className="section">
         <div className="section-title">proj</div>
