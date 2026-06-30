@@ -80,7 +80,7 @@ export default function App() {
       </div>
 
       <p className="bio">
-        math & CS major @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. ai, security, backend engineering
+        math & cs @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. ai, security, backend engineering
       </p>
       <p className="bio-muted">
         research assistant in reinforcement learning @ fordham.
