@@ -82,9 +82,16 @@ export default function App() {
       <p className="bio">
         math & cs @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. ai, security, backend engineering
       </p>
-      <p className="bio-muted">
-        research assistant in reinforcement learning @ fordham.
-      </p>
+      <div className="bio-roles">
+        <div className="item">
+          <span className="item-dash">–</span>
+          <span>research assistant in reinforcement learning @ <a href="https://storm.cis.fordham.edu/~zhang/research.html" target="_blank" rel="noopener noreferrer">fordham</a></span>
+        </div>
+        <div className="item">
+          <span className="item-dash">–</span>
+          <span>ai training/eval @ <a href="https://joinhandshake.com/ai" target="_blank" rel="noopener noreferrer">handshake ai</a></span>
+        </div>
+      </div>
 
 
       <div className="section">
@@ -106,8 +113,8 @@ export default function App() {
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/go-api" target="_blank" rel="noopener noreferrer">go-api</a>
-            <span className="item-desc">. rest api in go with chi. coin balance endpoint with token-based auth.</span>
+            <a href="https://github.com/kwasiga/go-api" target="_blank" rel="noopener noreferrer">jwt auth service</a>
+            <span className="item-desc">. rest api in go with chi. jwt auth, rbac, and coin balance endpoint.</span>
           </span>
         </div>
         {projOpen && (

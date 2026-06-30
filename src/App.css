@@ -134,6 +134,20 @@
   margin-bottom: 36px;
 }
 
+.bio-roles {
+  margin-bottom: 36px;
+  opacity: 0.6;
+}
+
+.bio-roles .item {
+  color: #8c7b6e;
+}
+
+.bio-roles .item a {
+  color: #8c7b6e;
+  font-weight: 400;
+}
+
 .bio-muted a {
   color: #8c7b6e;
   text-decoration: underline;
