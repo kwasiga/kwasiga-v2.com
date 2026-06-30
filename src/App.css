@@ -156,6 +156,27 @@
   margin-bottom: 10px;
 }
 
+.proj-expand-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.proj-arrow {
+  color: #8c7b6e;
+  transition: transform 0.2s ease;
+}
+
+.proj-arrow.open {
+  transform: rotate(180deg);
+}
+
 .item {
   display: flex;
   gap: 8px;
