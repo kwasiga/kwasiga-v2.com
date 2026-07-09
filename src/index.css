@@ -8,12 +8,15 @@
 
 html, body {
   height: 100%;
-  background: #F2EDE7;
   color: #111111;
   font-family: 'JetBrains Mono', 'Courier New', monospace;
   font-size: 14px;
   line-height: 1.85;
   -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #F2EDE7;
 }
 
 #root {
