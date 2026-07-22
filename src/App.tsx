@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 const EMAIL = 'kag7@fordham.edu';
@@ -174,9 +175,14 @@ export default function App() {
         </div>
         <div className="item">
           <span className="item-dash">–</span>
+          <span>best cam in pro clubs, 2x pcl byot winner</span>
+        </div>
+        <div className="item">
+          <span className="item-dash">–</span>
           <span>itachi was valid, end of discussion</span>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
