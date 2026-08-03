@@ -110,7 +110,7 @@ export default function App() {
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/go-api" target="_blank" rel="noopener noreferrer">jwt auth service</a>
+            <a href="https://github.com/kwasiga/goapi" target="_blank" rel="noopener noreferrer">jwt auth service</a>
             <span className="item-desc">. rest api in go with chi. jwt auth, rbac, and coin balance endpoint.</span>
           </span>
         </div>
