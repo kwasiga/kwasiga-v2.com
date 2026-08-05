@@ -80,12 +80,6 @@ export default function App() {
         </div>
         <div className="item">
           <span className="item-dash">–</span>
-          <span>
-            building <a className="link-highlight" href="https://heuron.news" target="_blank" rel="noopener noreferrer">heuron</a> — social & visual news stories backed by trustworthy sources
-          </span>
-        </div>
-        <div className="item">
-          <span className="item-dash">–</span>
           <span>ai training/eval @ <a href="https://joinhandshake.com/ai" target="_blank" rel="noopener noreferrer">handshake ai</a></span>
         </div>
       </div>
