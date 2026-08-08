@@ -165,15 +165,11 @@ export default function App() {
         </div>
         <div className="item">
           <span className="item-dash">–</span>
-          <span>diamond 1 in siege, music, and a pro larper</span>
+          <span>music, binging shows, anime, movies, football (soccer)</span>
         </div>
         <div className="item">
           <span className="item-dash">–</span>
-          <span>best cam in pro clubs, 2x pcl byot winner</span>
-        </div>
-        <div className="item">
-          <span className="item-dash">–</span>
-          <span>itachi was valid, end of discussion</span>
+          <span>kakashi is the goat</span>
         </div>
       </div>
       <Analytics />
