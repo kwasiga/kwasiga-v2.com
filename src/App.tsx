@@ -76,17 +76,20 @@ export default function App() {
       <div className="bio-roles">
         <div className="item">
           <span className="item-dash">–</span>
-          <span>research assistant in reinforcement learning @ <a href="https://storm.cis.fordham.edu/~zhang/research.html" target="_blank" rel="noopener noreferrer">fordham</a></span>
-        </div>
-        <div className="item">
-          <span className="item-dash">–</span>
-          <span>ai training/eval @ <a href="https://joinhandshake.com/ai" target="_blank" rel="noopener noreferrer">handshake ai</a></span>
+          <span>(prev) research assistant in reinforcement learning @ <a href="https://storm.cis.fordham.edu/~zhang/research.html" target="_blank" rel="noopener noreferrer">fordham</a></span>
         </div>
       </div>
 
 
       <div className="section">
         <div className="section-title">proj</div>
+        <div className="item">
+          <span className="item-dash">–</span>
+          <span>
+            <a href="https://github.com/kwasiga/kv-store" target="_blank" rel="noopener noreferrer">kv-store</a>
+            <span className="item-desc">. distributed key-value store built around raft consensus, in c++.</span>
+          </span>
+        </div>
         <div className="item">
           <span className="item-dash">–</span>
           <span>
