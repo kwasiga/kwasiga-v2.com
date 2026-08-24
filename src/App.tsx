@@ -78,6 +78,10 @@ export default function App() {
           <span className="item-dash">–</span>
           <span>(prev) research assistant in reinforcement learning @ <a href="https://storm.cis.fordham.edu/~zhang/research.html" target="_blank" rel="noopener noreferrer">fordham</a></span>
         </div>
+        <div className="item">
+          <span className="item-dash">–</span>
+          <span><a className="link-highlight" href="https://codebase-qa-2x1f.onrender.com/" target="_blank" rel="noopener noreferrer">try out my codebase q&a agent</a></span>
+        </div>
       </div>
 
 
