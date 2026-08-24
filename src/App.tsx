@@ -71,7 +71,7 @@ export default function App() {
       </div>
 
       <p className="bio">
-        math & cs @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. ai, security, backend engineering
+        math & cs @ <a href="https://fordham.edu" target="_blank" rel="noopener noreferrer">fordham</a>. infra, backend, security and ai
       </p>
       <div className="bio-roles">
         <div className="item">
