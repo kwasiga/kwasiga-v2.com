@@ -80,6 +80,10 @@ export default function App() {
         </div>
         <div className="item">
           <span className="item-dash">–</span>
+          <span>(prev) software engineering program @ <a href="https://techx.dev/alumni/kwasi-gyimah-asante" target="_blank" rel="noopener noreferrer">techx labs</a></span>
+        </div>
+        <div className="item">
+          <span className="item-dash">–</span>
           <span><a className="link-highlight" href="https://codebase-qa-2x1f.onrender.com/" target="_blank" rel="noopener noreferrer">try out my codebase q&a agent</a></span>
         </div>
       </div>
